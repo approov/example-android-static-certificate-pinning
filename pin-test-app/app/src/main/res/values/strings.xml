@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pin Test App</string>
+    <string name="app_title">Mobile Certificate Pinning Demo</string>
+    <string name="check_network_label">Say Hello</string>
+    <string name="hello_url">https://shapes.approov.io/v1/hello/</string>
+</resources>
