@@ -33,7 +33,7 @@ We will use the Pin Test app included in this repo to illustrate how we can add 
 First, clone the this repo with:
 
 ```bash
-git clone https://github.com/approov/quickstart-android-mobile-certificate-pinning.git
+git clone https://github.com/approov/example-android-static-certificate-pinning.git
 ```
 
 Now build the app and launch it on an emulator or real device and click the `Say Hello` button and a happy green face should be seen on the screen:
@@ -109,6 +109,6 @@ So, as the message says the pin verification failed, therefore the API request w
 
 Finally, undo the changes you made to the pin, rebuild the mobile app and ensure that you get again your happy green smile.
 
-Note that we have simulated a pin mismatch by changing what is expected by the app, rather than changing what is presented by the server. You can cause a server side change by using the correctly pinned version of the app and then follow the instructions to perform a MitM on the app traffic using [mitmproxy](https://mitmproxy.org/), [BurpSuite](https://portswigger.net/burp), [HTTP Tooklit](https://httptoolkit.tech/) or something else equivalent.
+Note that we have simulated a pin mismatch by changing what is expected by the app, rather than changing what is presented by the server. You can cause a server side change by using the correctly pinned version of the app and then follow the instructions to perform a MitM on the app traffic using [mitmproxy](https://mitmproxy.org/), [BurpSuite](https://portswigger.net/burp), [HTTP Tooklit](https://httptoolkit.tech/), [Charles Proxy](https://www.charlesproxy.com/) or something else equivalent. For example, you can follow the article [How to MitM Attack the API of an Android App](https://blog.approov.io/how-to-mitm-attack-the-api-of-an-android-app) to learn how to do it with mitmproxy.
 
 [TOC](#toc)
