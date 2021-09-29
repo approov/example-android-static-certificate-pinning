@@ -1,9 +1,8 @@
-# Pin Test App Quickstart: Android Mobile Certificate Pinning Generator
+# Pin Test App: Android Mobile Certificate Pinning Generator
 
-This quickstart provides the basic steps for integrating certificate pinning into your mobile app with the use of this [Approov free tool](https://approov.io/tools/static-pinning). This quickstart is written specifically for native Android apps from API 24 (Android 7.0) onwards that you wish to protect the API calls with certificate pinning.
+This repo provides the basic steps for integrating certificate pinning into your mobile app with the use of this [Approov free tool](https://approov.io/tools/static-pinning). This guide is written specifically for native Android apps from API 24 (Android 7.0) onwards that you wish to protect the API calls with certificate pinning.
 
-To follow this quickstart guide you only need to have an Android development setup on your machine.
-
+To follow this guide you only need to have an Android development setup on your machine.
 
 ## TOC
 
